@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: kWOz7R1KXCkjUpZL92PqJL2jd4oCZ5JRuVqnqWI4LyJ9HhsoT2z1PqYSkADt4fLEUG5LV9gYb8kW3vipqxgxQfUNqk8Bhcv4VTJrACeIhR18uidX7kBAvyAslNTmyeWLwXWCXI5daG0wgs7ututzd1ExQrFkI1F4van/xIOruvZX0bP5ihDZ9oPC1ak2XDBqCH/WbFXMg/WrvgFwq+oTZ00cYNYLjRdy402BJOM5c+e7CR9CBhf5S/FrNXJXeyGZQ/2IdDj5jbcUBzK3DrgZ0ngArBsxxEkrMOQ5P/GvBbelBTU/CfjTTO5nwYxDJ35gTv2Xu6rQ/6TNPQhZ72mcpit8hM9YMDxOJ8a+P/CQokDWl7Q5PXV5fWFD9Q3VLcY5e2za9aaEoHFFaJbHpC1JlP7qZ853HBQavnhMw0w5mJ300ksSfYB2vFBwWtSVK+ephqAHItSNSf4KVSW7dVIGPFU7ZkWNnbHhz6Pm8c/C7OGf1usRFtwZPOK+MqhR8xdJTPNk9pRnLwhohMYuQ6+k5qHroxQ1qO4FAWk8YruTbL+0lpCyF9IDEzBy7ldLblH4tzb5MVRJu1siSMAc7BGgUSsivY6CEzwl6keQTd9Yu9FrXW0TEpb2sGvyEJaanO+ImRIJqEsaQ/FE2ep9Y7AZMa/b6+6siwKoSICMVAnBdic=
+  app: node-shopping-list-integration-tests
+       infinite-garden-44739
+  on:
+    repo: llamousse/node-shopping-list-integration-tests
